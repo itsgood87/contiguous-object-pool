@@ -32,7 +32,7 @@ When there are no live handles for an object, the reference count for that objec
 
 Copy and move constructors for handles keep the reference count correct. Objects themselves are not copyable and are never moved, ensuring that the index into an array always points to the same object.
 
-
+To use the object pool, include `objects.h` and `typelist.h` in your project.
 
 
 
