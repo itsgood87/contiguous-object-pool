@@ -30,7 +30,7 @@ When there are no live handles for an object, the reference count for that objec
 	store.Clean();
 ```
 
-Copy and move constructors for handles keep the reference count correct. Objects themselves are no copyable and are never moved, ensuring that the index into an array always points to the same object.
+Copy and move constructors for handles keep the reference count correct. Objects themselves are not copyable and are never moved, ensuring that the index into an array always points to the same object.
 
 
 
