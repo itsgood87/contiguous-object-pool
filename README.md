@@ -1,0 +1,1 @@
+# contiguous-object-pool
