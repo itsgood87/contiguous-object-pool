@@ -46,7 +46,7 @@ namespace Objects {
 
 		ObjectOrHole() {}
 
-		// An ObjectOrHole cannot be copied, moved, or used to create a new ObjectOrHole
+		// An ObjectOrHole cannot be copied
 		ObjectOrHole(const ObjectOrHole& other) = delete;
 		ObjectOrHole& operator=(const ObjectOrHole& other) = delete;
 		ObjectOrHole(ObjectOrHole&& other) = default;
